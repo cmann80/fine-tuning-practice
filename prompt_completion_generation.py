@@ -13,3 +13,13 @@ df['generated_completion'] = df['generated_completion']
 
 # Save the modified dataframe to a new CSV file called "prepareddata.csv"
 df.to_csv('prepareddata.csv', index=False)
+
+# Select only the 'generated_prompt' and 'generated_completion' columns
+df = df[['generated_prompt', 'generated_completion']]
+
+# Convert the dataframe to a JSON object
+json_obj = df.to_json(orient='records')
+
+# Save the JSON object to a new file called "prepareddata.json"
+with open('prepareddata.json', 'w') as f:
+    f.write(json_obj)
