@@ -1,4 +1,4 @@
-Language,Family,Branch,generated_prompt,generated_completion
+Language,Family,Branch,prompt,completion
 English,Indo-European,Germanic,Which language family does English belong to?,"Indo-European, Germanic"
 Spanish,Indo-European,Romance,Which language family does Spanish belong to?,"Indo-European, Romance"
 Mandarin,Sino-Tibetan,Sinitic,Which language family does Mandarin belong to?,"Sino-Tibetan, Sinitic"
